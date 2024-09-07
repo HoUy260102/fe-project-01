@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+}
+header {
+    background-color: #E6F0FF;
+    height:100vh;
+    position: relative;
+}
+.content {
+    width: 1110px;
+    margin: auto;
+    max-width: calc(100% - 48px);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+.btn {
+    display: inline-block;
+    min-width: 98px;
+    background-color: #0F1B4C;
+    color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 18px 16px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 38px;
+}
+.navbar ul {
+    display: flex;
+    margin-left: 50px;
+}
+.navbar .actions {
+    margin-left: auto;
+}
+.navbar ul a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #4f5361;
+    padding: 8px 14px;
+}
+.navbar .actions .action-link{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #0F1B4C;
+}
+.navbar .action-btn {
+    padding: 13px 16px;
+    margin-left: 18px;
+}
+.hero {
+    margin-top: 130px;
+}
+.hero .sub-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #687690;
+}
+.hero .title {
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 1.19;
+    color: #000336;
+    margin-top: 8px;
+}
+.hero .info {
+    width: 51%;
+}
+.hero .desc {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+    text-transform: initial;  
+    margin-top: 20px;
+    color: #5A6473;
+}
+.hero .info .btn {
+    margin-top: 25px;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 19.5px;
+}
+.hero img {
+    /* width: 584px;
+    height: 619px; */
+    position: absolute;
+    bottom: 0;
+    right: calc((100vw - 1100px) / 2 - 100px);
+}
+.clients {
+    margin-top: 40px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.clients .row .desc {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: #7D8589;
+}
+.clients .content .row:nth-child(2) {
+    margin-top: 10px;
+}
+.clients .content .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.guides {
+    margin-top: 200px;
+}
+.guides .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.guides .content .sub-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    color: #000339;
+    position: relative;
+}
+.guides .content .desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #5A6473;
+    width: 459px;
+    margin-top: 15px;
+}
+.guides .content .sub-title::before {
+    content: "";
+    display: inline-block;
+    width: 41px;
+    height: 4px;
+    background-color: #000339;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.guides .list-guild .guide-item h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: #3B3C45;
+    margin-top: 10px;
+}
+.guides .list-guild .guide-item a {
+    color: #0689FF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 8px;
+}
+.guides .list-guild {
+    display: flex;
+    width: 685px;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.guides .list-guild .guide-item {
+    text-align: center;
+}
+.guides .content a {
+    margin-top: 25px;
+}
+.feature {
+    background-color: #E6F0FF;
+    margin-top: 120px;
+    padding: 110px 0;
+}
+.feature .content{
+    /* padding-top: 120px; */
+}
+.feature .content .header h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    color: #000339;
+}
+.feature .content .header .row {
+    margin-top: 10px;
+}
+.feature .content .header .row p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #5A6473;
+}
+.feature .content .header .row a {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: right;
+    color: #0689FF;
+}
+.feature .list-cards {
+    display: flex;
+    gap:30px;
+    margin-top: 65px;
+}
+.feature .list-cards .card-item {
+    /* width: 350px; */
+    background-color: #ffffff;
+    border-radius: 12px;
+    flex: 1;
+    padding-bottom: 15px;
+}
+.feature .list-cards .card-item .title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000339;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.feature .list-cards .card-item .desc {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 21px;
+    color: #A3A6AB;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.feature .list-cards .card-item .inf {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.feature .list-cards .card-item .inf .inf-con {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.feature .list-cards .card-item .inf-con span {
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #4D4D52;
+    padding-left: 5px;
+}
